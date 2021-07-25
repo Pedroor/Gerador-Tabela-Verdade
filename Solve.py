@@ -139,5 +139,5 @@ def main():
                      "A letra "v" é um conectivo então vai quebrar o código hahaha:\n")
     Solve(expression)
 
-if __name__ == '__main__':
+if  __name__ == '__main__':
     main()
