@@ -81,6 +81,7 @@ def GetRPN(expression : str):
     while (not stack.empty()): 
         RPN.push(stack.pop())
     return RPN
+    
 
 def Calculate(RPN : myStack, VariableValue: dict):  
     res = myStack()
@@ -139,5 +140,5 @@ def main():
                      "A letra "v" é um conectivo então vai quebrar o código hahaha:\n")
     Solve(expression)
 
-if  __name__ == '__main__':
+if __name__ == '__main__':
     main()
